@@ -1,0 +1,5 @@
+{
+  "service": {
+    "$path": "level1/service_missing.toml"
+  }
+}

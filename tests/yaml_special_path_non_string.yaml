@@ -1,0 +1,2 @@
+database:
+  $path: [1, 2, 3]

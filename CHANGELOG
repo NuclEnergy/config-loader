@@ -1,0 +1,19 @@
+# Changelog
+
+## [0.1.0] - 2026-04-03
+
+### Added
+
+- Initial public release of `load-config`
+- Typed configuration loading through `Loader`
+- Load configuration from file paths
+- Load configuration from environment variables
+- Support for recursive special directives:
+  - `$path`
+  - `$env`
+- Relative `$path` resolution based on the current file location
+- Intermediate `Value` representation for configuration trees
+- Custom `serde` deserialization from `Value` into typed Rust structs
+- Support for JSON, JSON5, TOML, and YAML config loading through feature flags
+- Recursive config composition for nested configuration files
+- Unit tests, integration tests, and example usage

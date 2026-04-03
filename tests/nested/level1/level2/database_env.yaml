@@ -1,0 +1,4 @@
+host: "127.0.0.1"
+port: 5432
+credentials:
+  $env: "load_config_DB_CREDENTIALS"
